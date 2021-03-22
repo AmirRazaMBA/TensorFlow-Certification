@@ -1,3 +1,6 @@
 
 *.h5
 *-checkpoint.ipynb
+.idea/inspectionProfiles/profiles_settings.xml
+*.xml
+*.iml
