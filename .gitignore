@@ -1,6 +1,10 @@
-
 *.h5
 *-checkpoint.ipynb
-.idea/inspectionProfiles/profiles_settings.xml
+.idea/
 *.xml
 *.iml
+*.tsv
+Untitled*.ipynb
+3. NLP/Coursera/Extra/
+5. Excercises/
+

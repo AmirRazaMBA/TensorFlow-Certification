@@ -118,8 +118,8 @@ model.save(model_file)
 # Rule of thumb
 # 1. High Bias                        accuracy = 80% val-accuracy = 78%   (2%  gap)
 # 2. High Variance                    accuracy = 98% val-accuracy = 80%   (18% gap)
-# 3. High Bias and High Variance      accuracy = 80% val-accuracy = 60%   (20% gap)
-# 4. Low Bias and Low Variance        accuracy = 98% val-accuracy = 96%   (2%  gap)
+# 3. High Bias and High Variance      accuracy = 80% val-accuracy = 60%   (20% gap)   - worst
+# 4. Low Bias and Low Variance        accuracy = 98% val-accuracy = 96%   (2%  gap)   - best
 
 # #### Eval - Train
 
@@ -258,6 +258,7 @@ plt.imshow(x_test[i].reshape(28,28), cmap='gray')
 plt.title("True label: %s Predicted: %s" % (y_test[i], y_prediction[i]));
 plt.show()
 # #### Final thoughts
+
 
 # Which model is better? Both models are same only loss types and y train are different
 
